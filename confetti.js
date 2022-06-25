@@ -1,5 +1,5 @@
-var maxParticleCount = 150; //set max confetti count
-var particleSpeed = 2; //set the particle animation speed
+var maxParticleCount = 100; //set max confetti count
+var particleSpeed = 3; //set the particle animation speed
 var startConfetti; //call to start confetti animation
 var stopConfetti; //call to stop adding confetti
 var toggleConfetti; //call to start or stop the confetti animation depending on whether it's already running
@@ -127,3 +127,5 @@ function updateParticles() {
 		}
 	}
 }
+
+export { startConfetti, stopConfetti, removeConfetti};
